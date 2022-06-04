@@ -42,12 +42,14 @@
     &--white {
         fill: var(--white-text-color);
       }
-}
 
-  .socials-list__link:hover .socials-list__icons,
-  .socials-list__link:focus .socials-list__icons {
+    .socials-list__link:hover &,
+    .socials-list__link:focus & {
     fill: var(--white-text-color);
   }
+}
+
+
   
   
   

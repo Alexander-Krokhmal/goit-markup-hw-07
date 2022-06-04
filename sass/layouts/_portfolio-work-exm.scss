@@ -49,6 +49,11 @@
   
     transform: translateY(101%);
     transition: transform var(--duration) var(--timing-function);
+  
+    .work-examples__link:hover &,
+    .work-examples__link:focus & {
+      transform: translateY(0);
+    }
   }
   
   .work-examples__label-container {
@@ -74,8 +79,5 @@
     color: var(--main-text-color);
   }
     
-  .work-examples__link:hover .work-examples__img-container-text,
-  .work-examples__link:focus .work-examples__img-container-text {
-    transform: translateY(0);
-  }
+  
   

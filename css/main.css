@@ -1107,6 +1107,12 @@ textarea {
   transition: transform var(--duration) var(--timing-function), -webkit-transform var(--duration) var(--timing-function);
 }
 
+.work-examples__link:hover .work-examples__img-container-text,
+.work-examples__link:focus .work-examples__img-container-text {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
 .work-examples__label-container {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
@@ -1128,11 +1134,5 @@ textarea {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-}
-
-.work-examples__link:hover .work-examples__img-container-text,
-.work-examples__link:focus .work-examples__img-container-text {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }
 /*# sourceMappingURL=main.css.map */
